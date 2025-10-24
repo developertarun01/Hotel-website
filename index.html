@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Google Font (For Font Family) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome (For Icons)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="section1">
+        <div class="section1-inner container">
+            <nav class="navbar flex-center">
+                <div class="navbar-left">
+                    <img src="" alt="Logo Here">
+                </div>
+
+                <!-- Hamburger Icon -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="navbar-right flex-center" id="nav-menu">
+                    <ul class="flex">
+                        <li><a href="/">Rooms</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Amenities</a></li>
+                        <li><a href="/">Galary</a></li>
+                        <li><a href="/">Contact</a></li>
+                    </ul>
+                    <button class="btn">BOOK NOW</button>
+                </div>
+            </nav>
+
+            <div class="hero-section flex-center">
+                <h1>A COZY-CHIC HOTEL WITH A GUEST HOUSE VIBE</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="section2-inner container">
+            <h1>THE BEST OF BOTH WORLDS…YOURS, AND OURS.</h1>
+            <p>Located at the intersection of West Hollywood and Beverly Hills, 850 SVB® is a destination from hotelier
+                Jeff Klein that blends the comfort and ease of residential living with the design and service of a
+                luxury boutique hotel. Every detail is intentional, every amenity is inspired, and every guest is a
+                friend. We look forward to welcoming you.</p>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="container flex-center section3-inner">
+            <div class="section3-left">
+                <img src="./assets/images/bg-hotel-2.jpg" alt="Hotel Rooms">
+            </div>
+            <div class="section3-right">
+                <h2>GUEST ROOMS</h2>
+                <p class="mt-20">Anything but standard, accommodations at Hotel 850 SVB are bright, and beautifully
+                    equipped. Guest rooms feature custom Rita Konig interiors with wood-paneled walls, original artwork
+                    from our private collection, hardwood floors, luxury linens, marble bathrooms with shower and
+                    bespoke bath amenities, complimentary mini bar snacks with refrigerator, and cozy work areas. Select
+                    rooms have private fireplaces and terraces.</p>
+                <button class="btn mt-20">EXPLORE ROOMS</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section4">
+        <div class="section4-inner container">
+            <div class="card">
+                <div class="card-top card-top-1 flex-center">
+                    <h1>Food & Drink</h1>
+                </div>
+                <p class="mt-20">Enjoy complimentary Continental Breakfast each day in our Living Room. <a
+                        href="/"><b>Learn More</b></a></p>
+            </div>
+            <div class="card">
+                <div class="card-top card-top-2 flex-center">
+                    <h1>Amenities</h1>
+                </div>
+                <p class="mt-20">Make yourself comfortable. Hotel 850’s residential-inspired concept encourages you to
+                    seek rest and relaxation – and a little fun, of course. <a href="/"><b>Learn More</b></a></p>
+            </div>
+            <div class="card">
+                <div class="card-top card-top-3 flex-center">
+                    <h1>About 850</h1>
+                </div>
+                <p class="mt-20">Inspired by European residential-style properties where the comforts and accoutrements
+                    of home blend seamlessly with the luxury and service of a contemporary hotel. <a href="/"><b>Learn
+                            More</b></a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section5">
+        <div class="container section5-inner flex-center">
+            <button onclick=goPrev() class="arrow-btn">
+                <i class="fa-solid fa-arrow-left fa-beat fa-xl" style="color: var(--button-dark)"></i>
+            </button>
+            <div class="section5-center flex-center">
+                <div class="section5-slide">
+                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic accusantium quas pariatur!
+                        Numquam, accusamus vitae?</h2>
+                    <h3 class="mt-20">- Tarun</h3>
+                </div>
+                <div class="section5-slide">
+                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic accusantium quas pariatur!
+                        Numquam, accusamus vitae?</h2>
+                    <h3 class="mt-20">- Tarun</h3>
+                </div>
+                <div class="section5-slide">
+                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic accusantium quas pariatur!
+                        Numquam, accusamus vitae?</h2>
+                    <h3 class="mt-20">- Tarun</h3>
+                </div>
+                <div class="section5-slide">
+                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic accusantium quas pariatur!
+                        Numquam, accusamus vitae?</h2>
+                    <h3 class="mt-20">- Tarun</h3>
+                </div>
+            </div>
+            <button onclick=goNext() class="arrow-btn">
+                <i class="fa-solid fa-arrow-right fa-beat fa-xl" style="color: var(--button-dark)"></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="slide-container">
+        <div class="slides">
+            <img class="slide-img active" src="./assets/images/about.jpg" alt="About Us">
+            <img class="slide-img" src="./assets/images/amenties.jpg" alt="Amenities">
+            <img class="slide-img" src="./assets/images/bg-hotel-2.jpg" alt="Hotel Background 2">
+            <img class="slide-img" src="./assets/images/bg-hotel.jpg" alt="Hotel Background">
+            <img class="slide-img" src="./assets/images/food.jpg" alt="Food">
+            <div class="dotsContainer">
+                <div class="dot active" attr="0" onclick="switchImage(this)"></div>
+                <div class="dot" attr="1" onclick="switchImage(this)"></div>
+                <div class="dot" attr="2" onclick="switchImage(this)"></div>
+                <div class="dot" attr="3" onclick="switchImage(this)"></div>
+                <div class="dot" attr="4" onclick="switchImage(this)"></div>
+            </div>
+        </div>
+
+        <!-- <div class="buttons">
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+        </div> -->
+
+
+    </section>
+
+    <section class="section7">
+        <div class="container section7-inner">
+            <h2>Follow us on Instagram @developertarun</h2>
+            <div class="insta-images mt-20">
+                <img src="./assets/images/about.jpg" alt="About Us">
+                <img src="./assets/images/about.jpg" alt="About Us">
+                <img src="./assets/images/about.jpg" alt="About Us">
+                <img src="./assets/images/about.jpg" alt="About Us">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-inner container flex-center">
+            <div class="footer-left">
+                <img src="" alt="Company Logo">
+                <h3><a href="/">(+1) 424 313 8650</a></h3>
+                <h3><a href="/">info@hotel850svb.com</a></h3>
+                <h3>850 N. San Vicente Boulevard West Hollywood, CA 90069</h3>
+            </div>
+            <div class="footer-right">
+                <ul>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/">Press</a></li>
+                    <li><a href="/">Hotel Policies</a></li>
+                    <li><a href="/">Careers</a></li>
+                    <li><a href="/">Privacy</a></li>
+                    <li><a href="/">Accessiblity</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <h4>©2024 JK HOTEL GROUP | 850 SVB is Registered in the U.S. Patent and Trademark Office</h4>
+    </footer>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
