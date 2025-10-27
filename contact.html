@@ -70,18 +70,26 @@
             </div>
             <div class="section2-contact-right flex-col">
                 <h2>SEND US AN EMAIL</h2>
-                <form action="process-form.php" class="mt-40">
-                    <div class=" flex-col"><label for="email"><b>Email </b>(required)</label>
-                        <input class="mt-20" type="email" name="email" id="email" placeholder="Type Here">
+                <form action="process-form.php" class="mt-40" method="post">
+                    <div class="flex-col">
+                        <label for="email"><b>Email</b> (required)</label>
+                        <input class="mt-20" type="email" name="email" id="email" placeholder="Type Here" required>
                     </div>
-                    <div class="mt-40 flex-col"><label for="subject"><b>Subject </b>(required)</label>
-                        <input class="mt-20" type="text" name="subject" id="subject" placeholder="Type Here">
+
+                    <div class="mt-40 flex-col">
+                        <label for="subject"><b>Subject</b> (required)</label>
+                        <input class="mt-20" type="text" name="subject" id="subject" placeholder="Type Here" required>
                     </div>
-                    <div class="mt-40 flex-col"><label for="message"><b>Message </b>(required)</label>
-                        <input class="mt-20" type="" name="message" id="message" placeholder="Type Here">
+
+                    <div class="mt-40 flex-col">
+                        <label for="message"><b>Message</b> (required)</label>
+                        <textarea class="mt-20" name="message" id="message" rows="5" placeholder="Type Here"
+                            required></textarea>
                     </div>
-                    <button class="btn mt-40">SEND</button>
+
+                    <button style="width: 100%;" class="btn mt-40" type="submit">SEND</button>
                 </form>
+
             </div>
 
         </div>
@@ -100,7 +108,7 @@
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="press.html">Press</a></li>
                     <li><a href="hotel-policies.html">Hotel Policies</a></li>
-                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="mailto:tarunbusinessmail@gmail.com?subject=Hotel 360 Job Enquiry">Careers</a></li>
                     <li><a href="privacy.html">Privacy</a></li>
                     <li><a href="accessiblity.html">Accessiblity</a></li>
                 </ul>

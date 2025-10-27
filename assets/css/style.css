@@ -201,10 +201,25 @@ body {
   align-items: stretch;
 }
 
+.section2-hotel-policies {
+  text-align: start;
+}
+
 .section2-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
+}
+
+.section2-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.section2-3 img {
+  width: 100%;
+  height: 200px;
 }
 
 .section2-2 img {
@@ -255,7 +270,8 @@ body {
   text-align: start;
 }
 
-.section2-contact-right div input {
+.section2-contact-right div input,
+textarea {
   padding: 10px;
 }
 
@@ -563,6 +579,10 @@ span.prev:hover {
   }
   .section2-contact {
     flex-direction: column;
+  }
+  .section2-3 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
   .section3-inner {
