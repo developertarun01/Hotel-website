@@ -62,7 +62,7 @@ body {
 
 .flex-col-center {
   display: flex;
-  flex-direction: center;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -89,6 +89,10 @@ body {
 
 .mt-20 {
   margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 /* Section 1 */
@@ -123,7 +127,7 @@ body {
 }
 
 .navbar ul li a:hover {
-  color: var(--button);
+  font-weight: 600;
 }
 
 /* Hamburger Icon */
@@ -185,6 +189,36 @@ body {
 .section2-inner p {
   margin-top: 15px;
   font-size: larger;
+}
+
+.section2-1 {
+  gap: 50px;
+  align-items: stretch;
+}
+
+.section2-1 img {
+  width: 100%;
+  height: 300px;
+}
+
+.section2-1-content {
+  width: 100%;
+  text-align: left;
+  flex: 1;
+}
+
+.slide-container .slides img.active {
+  left: 0;
+}
+
+.section2-1-content h2 {
+  width: 100%;
+  text-align: left;
+}
+
+.section2-list {
+  gap: 50px;
+  text-align: left;
 }
 
 /* section 3 */
@@ -288,6 +322,7 @@ body {
 
 /* Section 6 */
 .slide-container {
+  flex: 1;
   position: relative;
   width: 100%;
   height: 400px;
@@ -437,10 +472,9 @@ span.prev:hover {
   text-align: left;
 }
 
-.footer-left  h3 {
+.footer-left h3 {
   margin-top: 15px;
 }
-
 
 .footer-left a {
   color: white;
@@ -479,6 +513,12 @@ span.prev:hover {
   .hero-section {
     text-align: center;
   }
+  .section1-inner {
+    height: 75vh;
+  }
+  .section2-1 {
+    flex-direction: column;
+  }
   .section3-inner {
     flex-direction: column;
   }
@@ -507,7 +547,7 @@ span.prev:hover {
     height: 200px;
   }
 
-  .footer-right  {
+  .footer-right {
     width: 50%;
   }
 
