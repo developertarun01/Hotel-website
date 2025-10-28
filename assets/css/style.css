@@ -612,7 +612,7 @@ span.prev:hover {
 
 .footer-right li {
   list-style: none;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .footer-right li a {
@@ -655,6 +655,11 @@ span.prev:hover {
 
   .section3-inner {
     flex-direction: column;
+    gap: 10px;
+  }
+
+  .arrow-btn {
+    padding: 10px 7.5px;
   }
 
   .section3-left {
@@ -683,6 +688,16 @@ span.prev:hover {
 
   .footer-right {
     width: 50%;
+  }
+
+  .footer-right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10.5px;
+  }
+
+  .footer-right li {
+    margin-bottom: 0px;
   }
 
   /* .footer-inner {
