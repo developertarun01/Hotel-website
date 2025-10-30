@@ -189,6 +189,7 @@ a {
 
 .navbar ul li a:hover {
   font-weight: 600;
+  color: var(--button);
 }
 
 .navbar-left img {
@@ -609,6 +610,7 @@ span.prev:hover {
 
 .footer-left a:hover {
   color: var(--button);
+  font-weight: 600;
 }
 
 .footer-right ul {
@@ -627,6 +629,7 @@ span.prev:hover {
 
 .footer-right li a:hover {
   color: var(--button);
+  font-weight: 600;
 }
 
 /* 📱 Mobile Devices (up to 767px) */
