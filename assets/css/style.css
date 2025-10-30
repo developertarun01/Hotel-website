@@ -1,8 +1,8 @@
 :root {
-  --primary: #0b243c;
+  --primary: #251500;
   --background: #fffaf4;
-  --button: #815121;
-  --button-dark: #693501;
+  --button: #e8a941;
+  --button-dark: #c28524;
   --light: #f0f0f0;
   --dark: #303030;
 }
@@ -84,7 +84,7 @@ a {
   border: none;
   border-radius: 5px;
   background-color: var(--button);
-  color: white;
+  color: var(--primary);
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
@@ -189,6 +189,11 @@ a {
 
 .navbar ul li a:hover {
   font-weight: 600;
+}
+
+.navbar-left img {
+  width: 40px;
+  margin-right: 20px;
 }
 
 /* Hamburger Icon */
@@ -668,6 +673,10 @@ span.prev:hover {
 
   .section3-left img {
     width: 100%;
+  }
+
+  .navbar-left img {
+    display: none;
   }
 
   .section3-right {
